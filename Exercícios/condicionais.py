@@ -48,22 +48,3 @@ else:
     idade_colega > idade_usuario
     maioridade = idade_colega > 18
     print(f"{nome_colega} já atingiu a maioridade!")
-
-
-
-
-
-
-
-
-
-
-
-
-    
-
-
-
-
-
-

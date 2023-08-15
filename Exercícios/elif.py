@@ -135,4 +135,3 @@ elif mes == "DEZEMBRO":
 
     else:
         print("Verão!")
-

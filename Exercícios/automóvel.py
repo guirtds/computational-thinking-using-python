@@ -14,6 +14,3 @@ preco_por_litro = float(input("Diga quanto você pagou em reais por litro de gas
 valor_gasto_mensal = media_litros_por_mes * preco_por_litro
 
 print("Você gasta, em média, por mês R$ {:.2f} com combustível.".format(valor_gasto_mensal))
-
-
-

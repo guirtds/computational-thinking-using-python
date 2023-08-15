@@ -50,18 +50,3 @@ else:
 # conta quantas vezes determinado valor aparece na lista
 
 print("O número 6 aparece" , lista3.count(6), "vezes na lista.")
-
-### EXERCÍCIOS
-
-# remover todos os números "5" da lista usando "while"
-
-lista4 = [1, 5, 7, 5, 5, 9, 6, 87, 4, 5] # len(lista) = 10. Último índice = 9 
-i = 0
-while i <= len(lista4):
-    item_atual = lista4[i]
-    if item_atual == 5:
-        lista4.remove(5)
-        i -= 1
-    i += 1
-print(lista4)
-
