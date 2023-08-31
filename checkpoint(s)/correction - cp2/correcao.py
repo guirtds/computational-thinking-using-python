@@ -1,4 +1,4 @@
-#imprima dois números inteiros, e o segundo número deve ser obrigatoriamente maior que o primeiro
+# imprima dois números inteiros, e o segundo número deve ser obrigatoriamente maior que o primeiro
 
 n1 = float(input("Digite um número inteiro:"))
 while n1 != int(n1):
@@ -13,10 +13,10 @@ while n2 // 1 != n2 or n2 <=n1:
 n1 = int(n1)
 n2 = int(n2)
 
-#solicite dois números ao usuário
-#n1 deve ser ímpar e positivo, e n2 deverá ser par e negativo,
-#enquanto o usuário digitar um número que não atenda a estas condições,
-#o programa deverá dizer exatamente qual característica do número não estava de acordo com o que foi solicitado
+# solicite dois números ao usuário
+# n1 deve ser ímpar e positivo, e n2 deverá ser par e negativo,
+# enquanto o usuário digitar um número que não atenda a estas condições,
+# o programa deverá dizer exatamente qual característica do número não estava de acordo com o que foi solicitado
 
 n1 = float(input("Diga um número ímpar positivo:"))
 while n1 % 2 == 0 or n1 < 0:
